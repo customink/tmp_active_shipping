@@ -1,3 +1,6 @@
+# Disclaimer
+This fork serves as a temporary solution to facilitate the deprecation of Active Shipping from the Shipping Service. Currently, we are facing a dependency deadlock. We aim to replace Active Shipping with the EasyPost gem, but this requires an upgrade to a higher version of EasyPost (version 6, as we are currently on version 3), which in turn necessitates newer versions of Rails and Ruby. However, this upgrade is blocked by Active Shipping, which is limited to ActiveSupport version 5.1 or lower. We are using this fork as an interim solution to enable the necessary upgrades to Rails and Ruby, allowing us to eventually update and transition from Active Shipping to EasyPost.
+
 # ActiveShipping [![Build status](https://travis-ci.org/Shopify/active_shipping.svg?branch=master)](https://travis-ci.org/Shopify/active_shipping)
 
 This library interfaces with the web services of various shipping carriers. The goal is to abstract the features that are most frequently used into a pleasant and consistent Ruby API:
