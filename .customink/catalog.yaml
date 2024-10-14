@@ -1,0 +1,11 @@
+name: tmp_active_shipping
+owner: thunderdogs
+purpose:
+  - library
+deployment_type:
+  - cli
+tier: tier_na # this repo does not have a tier - library forked from active_shipping
+properties:
+  public_facing: false
+  pci: false
+  pii: false
