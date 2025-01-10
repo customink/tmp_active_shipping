@@ -34,7 +34,7 @@ module ActiveShipping
       :us_rates => false,
       :world_rates => false,
       :test => true,
-      :track => false
+      :track => true
     }
 
     CONTAINERS = {
