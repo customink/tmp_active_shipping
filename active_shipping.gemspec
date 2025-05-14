@@ -22,6 +22,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency("measured", ">= 2.0")
   s.add_dependency("activesupport", ">= 4.2", "< 7.1")
+  s.add_dependency("concurrent-ruby", "~> 1.3.4")
   s.add_dependency("active_utils", "~> 3.3.1")
   s.add_dependency("nokogiri", ">= 1.6")
 
